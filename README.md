@@ -1,4 +1,4 @@
-# YouTube Transcript Tutor
+# 🎓 YouTube Transcript Tutor
 
 An AI-powered Streamlit application that converts YouTube lecture transcripts into an interactive tutor.
 
@@ -6,7 +6,7 @@ Users can enter a YouTube video URL, process its transcript, and ask questions a
 
 > **Learning Project:** This project was built while learning and practicing LLM, embeddings, vector search, and RAG concepts.
 
-## Features
+## ✨ Features
 
 * Extracts available English transcripts from YouTube videos
 * Splits transcripts into smaller overlapping chunks
@@ -17,7 +17,7 @@ Users can enter a YouTube video URL, process its transcript, and ask questions a
 * Simple Streamlit interface
 * Handles common transcript errors
 
-## How It Works
+## 🔄 How It Works
 
 ```text
 YouTube URL
@@ -37,7 +37,7 @@ Gemini LLM
 Answer
 ```
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 * **Python**
 * **Streamlit**
@@ -48,7 +48,7 @@ Answer
 * **Pytube**
 * **python-dotenv**
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 youtube-transcript-tutor/
@@ -62,7 +62,7 @@ youtube-transcript-tutor/
 
 > `.env` and generated files such as `transcript.txt` should be excluded from Git.
 
-## Setup
+## 🚀 Setup
 
 ### 1. Clone the repository
 
@@ -104,7 +104,7 @@ streamlit run app.py
 
 Open the Streamlit URL shown in the terminal.
 
-## Usage
+## 💡 Usage
 
 1. Enter a YouTube video URL.
 2. Click **Process Video**.
@@ -112,7 +112,7 @@ Open the Streamlit URL shown in the terminal.
 4. Enter a question about the video.
 5. The AI generates an answer using the relevant transcript content.
 
-## Learning Outcomes
+## 📚 Learning Outcomes
 
 Through this project, I practiced:
 
@@ -127,15 +127,8 @@ Through this project, I practiced:
 * Streamlit application development
 * Environment variable and API-key management
 
-## Attribution
 
-This is a **learning project** developed by following and adapting concepts from a YouTube tutorial.
-
-Original tutorial: **[Add the YouTube tutorial link here]**
-
-The project was modified while learning and experimenting with the technologies used in the application.
-
-## Future Improvements
+## 🔮 Future Improvements
 
 * Support multiple transcript languages
 * Add conversation memory
@@ -145,6 +138,4 @@ The project was modified while learning and experimenting with the technologies 
 * Deploy the application to the cloud
 * Add RAG evaluation
 
-## License
 
-No license has been selected for this learning project.
